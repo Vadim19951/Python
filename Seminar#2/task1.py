@@ -4,14 +4,15 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
-from unittest import result
-
-
-n = int(input("Введите значение n: "))  
+n = float(input("Введите значение n: "))
+count = len(str(n)) - 2
 result = 0
+while count > 0:
+   n *= 10
+   count -= 1
 
+n = round(n)
 while n > 0:
-   print(n % 10)
    result += n % 10
    n = n // 10
 

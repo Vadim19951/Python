@@ -14,21 +14,3 @@ while min <= n:
      multiply *= min
      print(multiply, end = ", ")
      min += 1
-
-
-
-
-
-
-# multiply *= min
-
-
-# print(multiply)
-# min += 1
-
-# multiply *= min
-
-
-# print(multiply)
-
-
