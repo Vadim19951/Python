@@ -22,3 +22,4 @@ while index > 0:
     index -= 1
 
 print(f'десятичное число {original_n} равно двоичному {result}')
+
